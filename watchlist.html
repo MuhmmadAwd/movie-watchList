@@ -9,8 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,700&display=swap"
         rel="stylesheet">
-    <title>Movie Mate</title>
-    <link rel="stylesheet" href="./css/index.css">
+    <title>Movie Mate Watchlist</title>
+    <link rel="stylesheet" href="./css/watchlist.css">
 
 </head>
 
@@ -20,26 +20,31 @@
         <div class="header-image">
 
         </div>
-        <h1 class="neon">
-            <span class="flicker-slow">F</span>ind Y<span class="flicker-fast">o</span>ur <span
-                class="flicker-slow-2">M</span>ov<span class="flicker-fast-2">i</span>e
-        </h1>
-        <a href="watchlist.html">My Watchlist</a>
-        <div class="search-div">
-            <div class="search-icon-div">
-                <img class="search-icon" src="./images/search.png">
-            </div>
-            <input class="search" type="text" placeholder="search movies">
-            <button class="search-btn">Search</button>
-        </div>
+        <h1 class="neon"><span class="flicker-slow-2">M</span>y <span class="flicker-fast">W</span>atc<span
+                class="flicker-slow">h</span>lis<span class="flicker-fast-2">t</span></h1>
+        <a href="index.html">Search for movies</a>
+
+        <div class="bulb"></div>
+
     </header>
 
-    <main class="main">
-        <div class="temp-wrapper">
-            <div class="start-exploring">
-                <img src="./images/film.png">
-                <h3>Start exploring</h3>
+
+    <main>
+        <div class="data-wrapper">
+            <div class="wrapper">
+                <div class="watchlist-placeholder">
+                    <h2>Your watchlist is looking a little empty...</h2>
+                    <div>
+                        <a href="index.html">
+                            <img src="./images/plus.png">
+                            <p>Let's add some movies!</p>
+                        </a>
+                    </div>
+
+                </div>
+
             </div>
+
         </div>
 
         <div class="data-wrapper">
@@ -61,7 +66,7 @@
                         <p class="runtime">${runTime}</p>
                         <p class="genre">${genre}</p>
                         <div class="add-to-watchlist">
-                            <img class="add" src="./images/plus.png">
+                            <img class="add" src="./images/minus.png">
                             <p class="add">Watchlist</p>
                         </div>
                     </div>
@@ -91,7 +96,7 @@
                         <p class="runtime">${runTime}</p>
                         <p class="genre">${genre}</p>
                         <div class="add-to-watchlist">
-                            <img class="add" src="./images/plus.png">
+                            <img class="add" src="./images/minus.png">
                             <p class="add">Watchlist</p>
                         </div>
                     </div>
@@ -104,7 +109,10 @@
             </div>
             <hr>
         </div>
-        <script defer src="./js/index.js"></script>
+
+    </main>
+    <div class="empty-footer"></div>
+    <script defer src="./js/watchlist.js"></script>
 
 </body>
 
