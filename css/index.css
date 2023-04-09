@@ -337,7 +337,7 @@ hr {
     color: white;
 }
 
-.add-to-watchlist {
+.watchlist-wrapper {
     display: flex;
     align-items: center;
     gap: .2em;
@@ -350,7 +350,7 @@ hr {
     user-select: none;
 }
 
-.add-to-watchlist:active {
+.watchlist-wrapper:active {
     transform: scale(1.1);
 }
 
