@@ -24,9 +24,7 @@ A  simple movie search application that allows users to search for movies and ad
 
 ## Description
 
-simple card game built using HTML, CSS, and JavaScript. It allows users to draw
-two cards from a shuffled deck of cards, and determine the winner based on the
-value of the cards.
+A  simple movie search application that allows users to search for movies and add them to a watchlist.
 
 ### Built With
 
